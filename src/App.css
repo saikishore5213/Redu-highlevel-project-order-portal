@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.SignInButton {
+  position: sticky;
+  left: 94%;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.jsonArea {
+  position: absolute;
+  width: 98%;
+  margin: 1%;
+  height: 91vh;
+}
+
+.notSignInMessage {
+  margin-left: 73%;
+}
+
+.itemTabs {
+  margin: 1%;
+}
+
+.cancelOrder {
+  left: 3%;
+  top: 22%;
+}
+
+.spinnerDiv {
+  position: fixed;
+  left: 47%;
+  top: 50%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(200, 200, 200, 1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 0 6px rgba(90, 90, 90, 0.7);
+}
+
+.JsonOverFlow {
+  margin-top: 1%;
+  overflow-y: auto;
+}
+
+.lineItemContainer {
+  margin-top: 10px;
+}
+
+.actionButton {
+  display: flex;
+  align-items: center;
+}
+
+.buttonStyle {
+  cursor: pointer !important;
+}
+
+.taxRefundButton {
+  margin-top: 1%;
+}
+
+.invalidFeedBack {
+  position: fixed;
+}
+
+.verticalTabs {
+  border-right: 1px solid #000000;
+  height: 91vh;
+  width: 11% !important;
+  overflow-y: auto;
+}
+
+.tabSpace {
+  width: 89% !important;
+  height: fit-content;
+}
+
+.tabMainMenu:hover {
+  border-radius: 6px;
+  background-color: rgb(219, 235, 241);
+  cursor: pointer !important;
+}
+
+.mainMenuRow {
+  height: 99%;
+  width: 100%;
+}
+
+.jsonToTableScroll {
+  overflow: auto;
+}
+
+.modalWindowScroll {
+  max-height: 91vh;
+  overflow-y: auto;
+}
+
+.searchByWordWrap {
+  white-space: nowrap;
+}
+
+.btn-clear {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.signOutButton {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.scrollableForm {
+  max-height: 87vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ledgerBalanceSearchLeftAlign {
+  margin-left: 0% !important;
+}
+
+.customerAccountNameNoWrap {
+  white-space: nowrap;
+}
+
+.suggestionTextHeight {
+  height: 100%;
+}
+
+.downloadInvoice {
+  white-space: nowrap;
+  font-weight: bold;
+  color:#0d6efd;
+}
